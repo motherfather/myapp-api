@@ -117,7 +117,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://115.68.116.248/manager/text</url>
-					<path>/myapp-api</path>
+					<path>/myapp</path>
 					<username>admin</username>
 					<password>!@qlxmxhazot!@</password>
 				</configuration>
