@@ -13,7 +13,7 @@ import com.bit2016.myapp.domain.User;
 import com.bit2016.myapp.service.UserService;
 
 @Controller
-@RequestMapping( "/api/user" )
+@RequestMapping( "/user" )
 public class UserController {
 	
 	@Autowired
