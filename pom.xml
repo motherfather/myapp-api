@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>kr.ac.smu</groupId>
-	<artifactId>GuestBook</artifactId>
+	<groupId>com.bit2016</groupId>
+	<artifactId>myapp-api</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>message-converter Maven Webapp</name>
@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<org.springframework-version>4.0.1.RELEASE</org.springframework-version>
+		<org.springframework-version>4.2.1.RELEASE</org.springframework-version>
 		<com.fasterxml.jackson-version>2.1.1</com.fasterxml.jackson-version>
 	</properties>
 
@@ -117,7 +117,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://115.68.116.248/manager/text</url>
-					<path>/myapp</path>
+					<path>/myapp-api</path>
 					<username>admin</username>
 					<password>!@qlxmxhazot!@</password>
 				</configuration>
